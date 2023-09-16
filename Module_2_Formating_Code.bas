@@ -78,10 +78,10 @@ Sub Formating()
             End If
             
         Next x
-            
-        'ws.Cells(3, 17).Style.NumberFormat = "0.00%"
-        'ws.Cells(2, 17).Style.NumberFormat = "0.00%"
         
+        ws.Range("K2:K" & lastrow2).NumberFormat = "0.00%"
+        ws.Range("Q2:Q3").NumberFormat = "0.00%"
+
     Next ws
 End Sub
 
